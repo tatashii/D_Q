@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyDolphinsQuiz</string>
+    <string name="title">Dolphins\nby Dr.Hager Ramadan\n18/6/2020</string>
+    <string name="name">Your Name :</string>
+    <string name="id">ID:</string>
+    <string name="group_no">Group.no :</string>
+    <string name="write_your_answers_to_the_following_questions">Write your answers to the following questions .</string>
+    <string name="Q1">How many stomachs do dolphins have ?</string>
+    <string name="there_are_around">There are around</string>
+    <string name="species_of_dolphins">species of dolphins.</string>
+    <string name="Q2">Choose the correct answer .</string>
+    <string name="dolphins_can_live_up">Dolphins can live up .....</string>
+    <string name="_50_years">50 years</string>
+    <string name="_30_years">30 years</string>
+    <string name="_70_years">70 years</string>
+    <string name="Q3">What do you think of Dolphins?</string>
+    <string name="they_have_thick_skin">They have thick skin.</string>
+    <string name="they_swallow_their_food">They swallow their food.</string>
+    <string name="they_leave_their_pack_quickly">They leave their pack quickly.</string>
+    <string name="dolphins_are_very_friendly_to_humman_and_animals">Dolphins are very friendly to humman and animals</string>
+    <string name="killer_whales_belong_to_dolphins_family">Killer Whales belong to Dolphins Family</string>
+    <string name="get_your_marks">Get Your Marks</string>
+    <string name="have_a_nice_day">Have a nice day !!!</string>
+    <string name="your_certification">Your Certification !</string>
+</resources>

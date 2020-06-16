@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/secondActivityBackground"
+    tools:context=".QuizeMarks">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:src="@drawable/ic_tree"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:src="@drawable/ic_tree"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:src="@drawable/ic_tree"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/your_certification"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_margin="28dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        tools:text="gogo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+     <TextView
+         android:id="@+id/tv2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="28dp"
+         android:textSize="16sp"
+         android:textColor="@color/white"
+         android:textStyle="bold|italic"
+         android:text="Your Percentage is "
+
+         />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        >
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@drawable/ic_tree"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@drawable/ic_tree"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@drawable/ic_tree"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

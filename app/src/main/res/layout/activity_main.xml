@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dolphins">
+
+            <ImageView
+                android:layout_width="104dp"
+                android:layout_height="96dp"
+                android:src="@drawable/harvard"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="304dp"
+                android:layout_height="136dp"
+                android:src="@drawable/dolphins"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="@string/id"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="@string/group_no"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/write_your_answers_to_the_following_questions"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/Q1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+
+                android:id="@+id/ed4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:hint="......................................................."
+                android:inputType="number"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="@string/there_are_around"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+
+                    android:id="@+id/ed5"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="....."
+                    android:inputType="number"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="@string/species_of_dolphins"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/Q2"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/dolphins_can_live_up"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="isChecked"
+                    android:paddingLeft="16dp"
+                    android:text="@string/_50_years" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="isChecked"
+                    android:paddingLeft="16dp"
+                    android:text="@string/_30_years" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="isChecked"
+                    android:paddingLeft="16dp"
+                    android:text="@string/_70_years" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+
+                android:id="@+id/cb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/they_have_thick_skin"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:paddingLeft="16dp"/>
+
+            <CheckBox
+
+                android:id="@+id/cb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/they_swallow_their_food"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:paddingLeft="16dp"/>
+
+            <CheckBox
+
+                android:id="@+id/cb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/they_leave_their_pack_quickly"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:paddingLeft="16dp"/>
+
+            <CheckBox
+
+                android:id="@+id/cb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dolphins_are_very_friendly_to_humman_and_animals"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:paddingLeft="16dp"/>
+
+            <CheckBox android:id="@+id/cb5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/killer_whales_belong_to_dolphins_family"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:paddingLeft="16dp"/>
+            <Button
+                android:id="@+id/getYourMarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_your_marks"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                android:layout_gravity="end"
+                android:onClick="getYourMarks"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/have_a_nice_day"
+                    android:textColor="@android:color/black"
+                    android:textSize="32sp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/oooh"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
